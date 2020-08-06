@@ -1,0 +1,55 @@
+.active{
+    text
+}
+
+#display{
+    background-color: rgb(213, 214, 200);
+} 
+
+
+
+.full-height{
+    height: 100vh;
+    padding: 20px;
+}
+
+h6{
+   
+}
+
+i{
+    color: black;
+    border: 1px solid red;
+    
+}
+
+.icon{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid red;
+    
+    
+}
+#menu{
+    background-color: rgb(61, 59, 49);
+    /* color: white; */
+}
+
+
+#main{
+    background-color: rgb(241, 241, 237);
+} 
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+/* .test{
+    background-color: white;
+} */
+
+
+.welcome{
+    color: white;
+}
