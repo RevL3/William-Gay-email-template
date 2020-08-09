@@ -1,41 +1,91 @@
+.actions{
+    float: right;
+}
+
 .active{
-    text
+    font-weight: bold;
+}
+
+a:hover{
+    color:white;
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+button.compose:hover{
+    background-color: rgb(233, 202, 124);
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+.card-text{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.compose{
+    background-color: goldenrod;
+    border: none;
+}
+
+.date-time{
+    float: right;
 }
 
 #display{
-    background-color: rgb(213, 214, 200);
+    background-color: rgb(238, 238, 227);
+    padding: 20px;
 } 
 
-
-
-.full-height{
-    height: 100vh;
-    padding: 20px;
+.focus{
+    background-color: rgb(241, 241, 237);
+    box-shadow: 2px 3px 8px 0px rgb(112, 112, 109);
 }
 
-h6{
-   
+h5{
+    font-size: 0.8em;
 }
 
-i{
-    color: black;
-    border: 1px solid red;
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+  
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.inner-addon{
+    position:absolute;
+    bottom: 60px;
+    left: 40px;
+}
+
+.inner-button{
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
     
 }
 
-.icon{
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border: 1px solid red;
-    
-    
-}
 #menu{
     background-color: rgb(61, 59, 49);
-    /* color: white; */
 }
-
 
 #main{
     background-color: rgb(241, 241, 237);
@@ -45,10 +95,26 @@ i{
     color: white;
     text-decoration: none;
 }
-/* .test{
-    background-color: white;
-} */
 
+p{
+    color: rgb(139, 139, 122);
+}
+
+.reply{
+    position: relative;
+}
+
+.quotes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user-image{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding:0.5em;  
+}
 
 .welcome{
     color: white;

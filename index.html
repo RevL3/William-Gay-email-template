@@ -16,46 +16,131 @@
     </head>
 
     <body>
-
+        <!-- menu column, right/top-->
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-2 full-height" id="menu"> <!--left column -->
-                    <div class="row justify-content-around">
-                    
-                        <nav class="nav navbar">
-                            <a class="navbar-brand " href="#">
-                                <i class="fa fa-file-image-o" aria-hidden="true"></i>
-                                <span class="welcome">Welcome Brock!</span>
-                            </a>
-                        </nav>
+            <div class="row h-100">
+                <div class="col-sm col-md-2" id="menu"> <!--left column -->                    
+                    <div class="row justify-content-between"> 
+                        <div class="d-flex col-6 col-sm-5 col-lg-12 ">   
+                            <nav class="nav navbar">
+                                <a class="navbar-brand" href="#">
+                                    <i class="fa fa-file-image-o user-image" aria-hidden="true"></i> 
+                                </a>
+                                <span class="welcome" >Welcome, Brock!</span>
+                            </nav>
+                        </div>
+
+                        <div class="col-3 col-md-12 m-3 ">
+                            <button type="button" class="btn btn-primary compose">Compose</button>
+                        </div>
                         
-                        <nav class="nav flex-column navbar-expand-md navbar-light" >
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button> 
+                        <div class="col-12 col-md-12">
+                            <nav class="nav flex-column navbar-expand-md navbar-dark" >
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button> 
 
-                            <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
-                                <a class="nav-link active" href="#">Inbox (1) <span class="sr-only">(current)</span></a> 
-                                <a class="nav-link" href="#">Tagged (1) <span class="sr-only">(current)</span></a>
+                                <div class="collapse navbar-collapse align-items-start flex-column" id="navbarSupportedContent">
+                                    <a class="nav-link active" href="#">Inbox (1) <span class="sr-only">(current)</span></a> 
+                                    <a class="nav-link" href="#">Tagged<span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#">Important<span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#">Sent Email<span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#">Drafts<span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#">Trash<span class="sr-only">(current)</span></a>
+                                </div>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>  
+            
+
+               
+               
+               
+               <!-- display emails middle column-->
+               
+               
+                <div class="col-md col-lg-4" id="display">
+                    <div class="form-group has-search">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search for emails">
+                      </div>
+                    
+                    
+                    <div class="card w-100">
+                        <div class="card-body">
+                            <h5 class="card-title d-inline bold">LinkedIn</h5>
+                            <h5 class="card-title date-time text-muted">02:45pm</h5>
+                            <p class="card-text">You have a new connection request</p>
+                        </div>
+                    </div>
+
+                    <div class="card w-100 focus">
+                        <div class="card-body">
+                          <h5 class="card-titled d-inline bold">Michael Scott Daily Quotes</h5>
+                          <h5 class="card-title date-time text-muted">July 3, 2020</h5>
+                          <p class="card-text">I'm optimistic because everyday I get a little more desp...</p>
+                        </div>
+                    </div>
+                
+                    <div class="card w-100">
+                        <div class="card-body">
+                          <h5 class="card-title d-inline bold">Lamar Software</h5>
+                          <h5 class="card-title date-time text-muted">Feb 9, 2020</h5>
+                          <p class="card-text">Learn how you can give us money by calling (209) 322-7...</p>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <!--body of email with reply option, right/bottom-->   
+                <div class="col-md col-lg-6" id="main">
+                    <div class="card">
+                        <div class="card-body pb-0">
+                            <p class="mb-1">To:taylor@lamarsoftware.io</p>
+                            <p>From:re-reply@theofficenbc.com</p>
+                        </div>
+                    </div>
+
+                    <div class="card w-100">
+                        <div class="card-body pt-0">
+                            <h4 class="card-title bold d-inline mt-1">Michael Scott Daily Quotes</h4>                          
+                            <div class="actions d-flex">
+                                <h6 class="card-title text-muted ml-1 mr-1"><i class="fa fa-trash margin" aria-hidden="true"></i></h6>
+                                <h6 class="card-title text-muted ml-1 mr-1"><i class="fa fa-reply" aria-hidden="true"></i></h6>
+                                <h6 class="card-title text-muted"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></h6>
                             </div>
-                        </nav>
+                            <div class="card-text text-muted my-4">
+                                <h6 class="quotes">
+                                    "Friends joke with one another. 'Hey, you're poor.''Hey, your mama's dead' That's what friends do."
+                                </h6>
+                            </div>
 
-                    </div>  
-                </div>
+                            <div class="card-text text-muted my-4">
+                                <h6 class="quotes">
+                                    "It's a good thing Russia doesn't exist anymore."
+                            </div>
 
-               
-               
-               
-               
-               
-               
-                <div class="col-3 full-height" id="display">
-                    <p>iwefi</p>
-                </div>
+                            <div class="card-text text-muted my-4">
+                                <h6 class="quotes">
+                                    "It just seems awfully mean. But sometimes, the ends justify the mean."
+                            </div>
 
-                   
-                <div class="col-7 full-height" id="main">
-                    <p>rtyujk</p>
+                            <div class="card-text text-muted my-4">
+                                <h6 class="quotes">
+                                    "Reverse psychology is an awesome tool. I don't know if you guys know about it, but, basically, you make someone think the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm."
+                            </div>
+
+                            <div class="form-group">
+                                
+                                <textarea class="form-control reply" id="exampleFormControlTextarea1" rows="12"></textarea>
+                                <i class="fa fa-paperclip inner-addon" aria-hidden="true"></i>
+                                <button type="button" class="btn btn-outline-warning btn-sm inner-button">Reply</button>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
