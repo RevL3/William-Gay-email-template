@@ -1,0 +1,23 @@
+{
+  "name": "william-gay-email-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RevL3/William-Gay-email-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RevL3/William-Gay-email-template/issues"
+  },
+  "homepage": "https://github.com/RevL3/William-Gay-email-template#readme",
+  "description": ""
+}
